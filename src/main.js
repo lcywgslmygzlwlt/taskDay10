@@ -15,11 +15,15 @@ import {
   GridItem,
   Image as VanImage,
   Icon,
+  Search,
+  Tag,
 } from 'vant'
 
+Vue.use(Tag)
 Vue.use(Icon)
 Vue.use(Grid)
 Vue.use(Cell)
+Vue.use(Search)
 Vue.use(NavBar)
 Vue.use(Tabbar)
 Vue.use(GridItem)
