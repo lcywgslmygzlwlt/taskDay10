@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import { getRecommendListApi, getNewsongListApi } from '@/api';
+import { getRecommendListApi, getNewsongListApi } from '@/apis';
 export default {
   data() {
     return {
